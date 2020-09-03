@@ -7,12 +7,12 @@ const customer = {
 };
 
 //              your code inside these <div> tags
-const output = 
+const output = (
 	<div>
-		<h1>My name is {customer.first_name}</h1>
-		<h2>My last name is {customer.last_name} </h2>
+		<h1>My name is{customer.first_name}</h1>
+		<h2>My last name is{customer.last_name} </h2>
 	</div>
-;
-
+)
 //              what     where
-ReactDOM.render(output, document.querySelector("#myDiv"));
+ReactDOM.render(output, document.querySelector('#myDiv'));
+console.log(customer.firts_name)
