@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 const animals = ["Horse", "Turtle", "Elephant", "Monkey"];
 
+
 /**
  * change the content inside the map function
  **/
